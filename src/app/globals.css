@@ -22,7 +22,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, var(--accent-from), var(--accent-to));
+  background: #ffffff;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
