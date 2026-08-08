@@ -23,7 +23,7 @@ export default function Home() {
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-2xl space-y-4">
               <div className="flex items-center gap-4">
-                <img src="/images/logo.jpg" alt="Clinic logo" className="h-12 w-12 rounded-md object-cover" />
+                <img src="/images/logo-transparent.png" alt="Clinic logo" className="h-12 w-12 rounded-md object-cover" />
                 <div>
                   <p className="text-sm font-semibold uppercase tracking-[0.12em] text-violet-600">
                     Dr Tanvi's Orthodontic and Dental Solutions
@@ -41,9 +41,9 @@ export default function Home() {
                   href="https://wa.me/+919518369173"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-violet-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-violet-500/20 transition hover:bg-violet-700"
+                  className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-violet-500/20 transition hover:from-violet-700 hover:to-fuchsia-400"
                 >
-                  <img src="/images/whatsapp%20Logo.jpg" alt="WhatsApp" className="h-5 w-5 mr-3 object-contain" />
+                  <img src="/images/whatsapp%20Logo.png" alt="WhatsApp" className="h-5 w-5 mr-3 object-contain" />
                   Chat on WhatsApp
                 </a>
                 <a
@@ -142,7 +142,7 @@ export default function Home() {
             <div className="space-y-4 rounded-3xl bg-white/60 p-6 ring-1 ring-violet-50">
               <p className="text-sm text-slate-500">Clinic</p>
               <h3 className="text-base font-semibold text-slate-900">
-                <img src="/images/logo.jpg" alt="Clinic logo" className="inline-block h-6 w-6 mr-2 rounded-sm object-cover align-middle" />
+                <img src="/images/logo-transparent.png" alt="Clinic logo" className="inline-block h-6 w-6 mr-2 rounded-sm object-cover align-middle" />
                 Dr Tanvi's Orthodontic and Dental Solutions
               </h3>
               <address className="not-italic mt-2 text-sm text-slate-700">
@@ -159,17 +159,7 @@ export default function Home() {
                 </svg>
                 Open Google Maps
               </a>
-              <div className="mt-4 overflow-hidden rounded-2xl">
-                <iframe
-                  title="Clinic location"
-                  src="https://www.google.com/maps?q=Shop+no+118+Adiamville+Punawale+Pimpri-Chinchwad+Maharashtra+411033&output=embed"
-                  width="100%"
-                  height="220"
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="w-full border-0"
-                />
-              </div>
+              
             </div>
             <div className="space-y-4 rounded-3xl bg-white/60 p-6 ring-1 ring-violet-50">
               <p className="text-sm text-slate-500">Connect with us</p>
@@ -178,7 +168,7 @@ export default function Home() {
                   href="https://wa.me/+919518369173"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center rounded-full bg-violet-600 px-4 py-3 text-sm font-semibold text-white transition hover:bg-violet-700"
+                  className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-4 py-3 text-sm font-semibold text-white transition hover:from-violet-700 hover:to-fuchsia-400"
                 >
                   <img src="/images/whatsapp%20Logo.jpg" alt="WhatsApp" className="h-5 w-5 mr-3 object-contain" />
                   WhatsApp Chat
@@ -198,6 +188,34 @@ export default function Home() {
               </div>
             </div>
           </aside>
+        </section>
+
+        <section className="mt-10 w-full rounded-3xl bg-white/90 p-6 shadow-xl ring-1 ring-slate-200 sm:p-8">
+          <div className="flex items-center justify-between mb-4">
+            <div>
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-violet-600">Find us</p>
+              <h2 className="mt-2 text-2xl font-semibold text-slate-900">Clinic location</h2>
+            </div>
+            <a
+              href="https://maps.app.goo.gl/g8e41VVdS6AHKEq27"
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm font-semibold text-violet-600 hover:text-violet-800"
+            >
+              Open in Google Maps
+            </a>
+          </div>
+          <div className="overflow-hidden rounded-2xl">
+            <iframe
+              title="Clinic location"
+              src="https://www.google.com/maps?q=Shop+no+118+Adiamville+Punawale+Pimpri-Chinchwad+Maharashtra+411033&output=embed"
+              width="100%"
+              height="360"
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              className="w-full border-0 h-96 sm:h-[420px]"
+            />
+          </div>
         </section>
 
         <section className="mt-10 rounded-3xl bg-white/90 p-8 shadow-xl ring-1 ring-slate-200 sm:p-10">

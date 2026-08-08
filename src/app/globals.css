@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff; /* light purple */
-  --foreground: #2b0b3a; /* deep purple for text */
-  --accent-from: #c084fc; /* purple-300 */
-  --accent-to: #f0abfc;   /* fuchsia-300 */
+  --background: #ffffff;
+  --foreground: #0f172a; /* slightly deeper neutral for text */
+  --accent-from: #7c3aed; /* modern violet */
+  --accent-to: #a78bfa;   /* soft violet fade */
 }
 
 @theme inline {
