@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff; /* light purple */
+  --foreground: #2b0b3a; /* deep purple for text */
+  --accent-from: #c084fc; /* purple-300 */
+  --accent-to: #f0abfc;   /* fuchsia-300 */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, var(--accent-from), var(--accent-to));
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Hide Next.js devtools / dev indicator added in development */
+/* Targets common class names used by Next devtools and the dev indicator */
+.resize-container.bottom-left,
+.resize-container.bottom-right,
+.next-devtools,
+.next-devtools-button,
+.devtools-button,
+.__next_devtools,
+#__next_devtools,
+[id^="__next-devtools"],
+.devtools-toggle,
+.devtools-resize {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Also hide the Next.js small dev indicator (if present) */
+button[title*="Next.js"],
+button[aria-label*="Next"],
+div[class*="devtools"] {
+  display: none !important;
+}
