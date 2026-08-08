@@ -25,7 +25,7 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <img src="/images/logo-transparent.png" alt="Clinic logo" className="h-12 w-12 rounded-md object-cover" />
                 <div>
-                  <p className="text-sm font-semibold uppercase tracking-[0.12em] text-violet-600">
+                  <p className="text-base sm:text-lg font-semibold uppercase tracking-[0.12em] text-violet-600">
                     Dr Tanvi's Orthodontic and Dental Solutions
                   </p>
                   <h1 className="text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
