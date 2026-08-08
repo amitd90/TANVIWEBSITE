@@ -72,13 +72,13 @@ export default function Home() {
                   Expert orthodontic guidance, support, and treatment plans tailored to your needs.
                 </p>
                 <div className="mt-8 grid gap-3 sm:grid-cols-2">
-                  <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50 break-words">
+                  <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50">
                     <p className="text-sm text-slate-300">WhatsApp</p>
-                    <p className="mt-2 text-lg font-semibold whitespace-normal break-words">+91 95183 69173</p>
+                    <p className="mt-2 text-lg font-semibold whitespace-nowrap">+91 95183 69173</p>
                   </div>
-                  <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50 break-words">
+                  <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50">
                     <p className="text-sm text-slate-300">Instagram</p>
-                    <p className="mt-2 text-lg font-semibold whitespace-normal truncate max-w-full">@drtanvi.ortho</p>
+                    <p className="mt-2 text-lg font-semibold whitespace-nowrap">@drtanvi.ortho</p>
                   </div>
                 </div>
                 <a href="tel:+919518369173" className="mt-4 inline-flex w-max items-center justify-center rounded-full bg-white/10 px-5 py-2 text-sm font-semibold text-white ring-1 ring-white/20 hover:bg-white/20">
@@ -170,7 +170,7 @@ export default function Home() {
                   rel="noreferrer"
                   className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-4 py-3 text-sm font-semibold text-white transition hover:from-violet-700 hover:to-fuchsia-400"
                 >
-                  <img src="/images/whatsapp%20Logo.jpg" alt="WhatsApp" className="h-5 w-5 mr-3 object-contain" />
+                  <img src="/images/whatsapp%20Logo.png" alt="WhatsApp" className="h-5 w-5 mr-3 object-contain" />
                   WhatsApp Chat
                 </a>
                 <a href="tel:+919518369173" className="inline-flex items-center justify-center rounded-full border border-violet-600 px-4 py-3 text-sm font-semibold text-violet-600 hover:bg-violet-50">
