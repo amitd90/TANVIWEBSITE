@@ -22,12 +22,17 @@ export default function Home() {
         <header className="flex flex-col gap-6 rounded-3xl bg-white/70 backdrop-blur-sm p-8 shadow-xl ring-1 ring-violet-100 sm:p-10">
           <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-2xl space-y-4">
-              <p className="text-sm font-semibold uppercase tracking-[0.12em] text-violet-600">
-                Dr Tanvi's Orthodontic and Dental Solutions
-              </p>
-              <h1 className="text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
-                Smile with confidence at your trusted orthodontic clinic.
-              </h1>
+              <div className="flex items-center gap-4">
+                <img src="/images/logo.jpg" alt="Clinic logo" className="h-12 w-12 rounded-md object-cover" />
+                <div>
+                  <p className="text-sm font-semibold uppercase tracking-[0.12em] text-violet-600">
+                    Dr Tanvi's Orthodontic and Dental Solutions
+                  </p>
+                  <h1 className="text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">
+                    Smile with confidence at your trusted orthodontic clinic.
+                  </h1>
+                </div>
+              </div>
               <p className="text-lg leading-8 text-slate-600">
                 Personalized orthodontic care for braces, clear aligners, and beautiful smile transformations in a warm, professional setting.
               </p>
@@ -136,7 +141,10 @@ export default function Home() {
             </div>
             <div className="space-y-4 rounded-3xl bg-white/60 p-6 ring-1 ring-violet-50">
               <p className="text-sm text-slate-500">Clinic</p>
-              <h3 className="text-base font-semibold text-slate-900">Dr Tanvi's Orthodontic and Dental Solutions</h3>
+              <h3 className="text-base font-semibold text-slate-900">
+                <img src="/images/logo.jpg" alt="Clinic logo" className="inline-block h-6 w-6 mr-2 rounded-sm object-cover align-middle" />
+                Dr Tanvi's Orthodontic and Dental Solutions
+              </h3>
               <address className="not-italic mt-2 text-sm text-slate-700">
                 Shop no. 118, first floor, Adiamville, near Life Republic East Gate, opposite Cambridge International school, Gaikwad Nagar, Punawale, Pimpri-Chinchwad, Maharashtra 411033
               </address>
