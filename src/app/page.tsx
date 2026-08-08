@@ -71,7 +71,7 @@ export default function Home() {
                 <p className="mt-3 text-sm leading-6 text-slate-300">
                   Expert orthodontic guidance, support, and treatment plans tailored to your needs.
                 </p>
-                <div className="mt-8 grid gap-3 sm:grid-cols-2">
+                <div className="mt-8 grid gap-3">
                   <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50">
                     <p className="text-sm text-slate-300">WhatsApp</p>
                     <p className="mt-2 text-lg font-semibold whitespace-nowrap">+91 95183 69173</p>
