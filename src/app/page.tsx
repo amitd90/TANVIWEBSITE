@@ -76,6 +76,7 @@ export default function Home() {
                   </div>
                 </div>
                 <a href="tel:+919518369173" className="mt-4 inline-flex w-max items-center justify-center rounded-full bg-white/10 px-5 py-2 text-sm font-semibold text-white ring-1 ring-white/20 hover:bg-white/20">
+                  <img src="/images/phonecallLogo.jpg" alt="Phone call" className="h-4 w-4 mr-2 object-contain" />
                   Call +91 95183 69173
                 </a>
               </div>
