@@ -37,47 +37,46 @@ export default function Home() {
                 Personalized orthodontic care for braces, clear aligners, and beautiful smile transformations in a warm, professional setting.
               </p>
             </div>
-            <div className="rounded-[2rem] bg-gradient-to-br from-violet-400 to-fuchsia-300 p-1 shadow-xl shadow-slate-300/60">
-              <div className="overflow-hidden rounded-[1.75rem] bg-slate-950 p-6 text-white">
-                <div className="flex items-center justify-between">
-                  <div>
+            <div className="rounded-[2rem] bg-gradient-to-br from-violet-500 via-fuchsia-500 to-violet-500 p-1 shadow-[0_20px_80px_rgba(124,58,237,.24)]">
+              <div className="overflow-hidden rounded-[1.75rem] bg-slate-950 p-6 text-white ring-1 ring-white/10">
+                <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="max-w-xl">
                     <p className="text-sm uppercase tracking-[0.3em] text-slate-300">Smile care</p>
-                    <h2 className="mt-4 text-2xl font-semibold">Book your consultation</h2>
+                    <h2 className="mt-4 text-3xl font-bold leading-tight sm:text-4xl">Book your consultation</h2>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <img src="/images/face.jpg" alt="Dr. Tanvi profile" className="h-14 w-14 rounded-full object-cover ring-2 ring-white" />
-                  </div>
+                  <img src="/images/face.jpg" alt="Dr. Tanvi profile" className="h-16 w-16 rounded-full object-cover ring-2 ring-white" />
                 </div>
-                <p className="mt-3 text-sm leading-6 text-slate-300">
+                <p className="mt-5 max-w-xl text-sm leading-7 text-slate-300">
                   Expert orthodontic guidance, support, and treatment plans tailored to your needs.
                 </p>
-                <div className="mt-8 grid gap-3">
-                  <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50">
+                <div className="mt-8 space-y-4">
+                  <div className="rounded-[2rem] border border-white/10 bg-white/5 p-2">
                     <a
-                        href="https://wa.me/+919518369173"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-violet-500/20 transition hover:from-violet-700 hover:to-fuchsia-400"
-                        >
-                        <img src="/images/whatsapp%20Logo.png" alt="WhatsApp" className="h-5 w-5 mr-3 object-contain" />
-                        Chat on WhatsApp
+                      href="https://wa.me/+919518369173"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex w-full items-center justify-center gap-3 rounded-[1.5rem] bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-4 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(124,58,237,0.28)] transition hover:from-violet-700 hover:to-fuchsia-400"
+                    >
+                      <img src="/images/whatsapp%20Logo.png" alt="WhatsApp" className="h-5 w-5" />
+                      Chat on WhatsApp
                     </a>
                   </div>
-                  <div className="rounded-3xl bg-white/10 p-4 ring-1 ring-violet-50">
+                  <div className="rounded-[2rem] border border-white/10 bg-white/5 p-2">
                     <a
-                        href="https://instagram.com/drtanvi.ortho?igshid=YTQwZjQ0NmI0OA=="
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-violet-500/20 transition hover:from-violet-700 hover:to-fuchsia-400"
-                        >
-                        <img src="/images/instagram%20logo.jpg" alt="Instagram" className="h-5 w-5 mr-3 object-contain" />
-                        @drtanvi.ortho
+                      href="https://instagram.com/drtanvi.ortho?igshid=YTQwZjQ0NmI0OA=="
+                      target="_blank"
+                      rel="noreferrer"
+                      className="flex w-full items-center justify-center gap-3 rounded-[1.5rem] bg-gradient-to-r from-violet-600 to-fuchsia-500 px-6 py-4 text-sm font-semibold text-white shadow-[0_20px_40px_rgba(124,58,237,0.28)] transition hover:from-violet-700 hover:to-fuchsia-400"
+                    >
+                      <img src="/images/instagram%20logo.jpg" alt="Instagram" className="h-5 w-5" />
+                      @drtanvi.ortho
                     </a>
                   </div>
                 </div>
-                <a href="tel:+919518369173" className="mt-4 inline-flex w-max items-center justify-center rounded-full bg-white/10 px-5 py-2 text-sm font-semibold text-white ring-1 ring-white/20 hover:bg-white/20">
-                  <img src="/images/phonecallLogo.jpg" alt="Phone call" className="h-4 w-4 mr-2 object-contain" />
-                  Call +91 95183 69173
+                <div className="mt-6 rounded-[2rem] border border-white/10 bg-white/5 p-2">
+                  <a href="tel:+919518369173" className="flex w-full items-center justify-center gap-3 rounded-[1.5rem] bg-slate-900 px-5 py-4 text-sm font-semibold text-white transition hover:bg-slate-800">
+                    <img src="/images/phonecallLogo.jpg" alt="Phone call" className="h-4 w-4" />
+                    Call +91 95183 69173
                 </a>
               </div>
             </div>
