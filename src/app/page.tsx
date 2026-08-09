@@ -83,7 +83,7 @@ export default function Home() {
           </div>
         </header>
 
-        <section className="mt-10 grid gap-8 lg:grid-cols-[1.5fr_0.5fr]">
+        <section className="mt-10">
           <div className="space-y-8 rounded-3xl bg-white/60 backdrop-blur-sm p-8 shadow-xl ring-1 ring-violet-50 sm:p-10">
             <div className="grid gap-6 sm:grid-cols-2">
               <div className="rounded-3xl bg-white/60 p-6 ring-1 ring-violet-50">
@@ -102,7 +102,7 @@ export default function Home() {
 
             <div className="space-y-6">
               <div>
-                <h3 className="text-2xl font-semibold text-slate-950">Why choose Dr. Tanvi Ortho?</h3>
+                <h3 className="text-2xl font-semibold text-slate-950">Why choose us?</h3>
                 <p className="mt-3 text-slate-600 leading-8">
                   Experienced orthodontic care with a personalized treatment plan, patient comfort, and modern clinic amenities.
                 </p>
