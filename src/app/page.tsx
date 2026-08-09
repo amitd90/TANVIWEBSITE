@@ -309,6 +309,23 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+        <section className="mt-10 rounded-3xl bg-white/90 p-8 shadow-xl ring-1 ring-slate-200 sm:p-10">
+          <div className="space-y-3">
+            <p className="text-sm font-semibold uppercase tracking-[0.24em] text-violet-600">Clinic timings</p>
+            <h2 className="text-2xl font-semibold text-slate-950">Visiting hours</h2>
+          </div>
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <div className="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
+              <p className="text-sm font-semibold text-slate-900">Monday - Saturday</p>
+              <p className="mt-2 text-base text-slate-700">10:00 AM to 9:00 PM</p>
+            </div>
+            <div className="rounded-3xl bg-slate-50 p-6 ring-1 ring-slate-200">
+              <p className="text-sm font-semibold text-slate-900">Sunday</p>
+              <p className="mt-2 text-base text-slate-700">By Appointment</p>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
